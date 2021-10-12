@@ -17,6 +17,14 @@ public class InputPoint2D {
 		Point2D p1 = new Point2D(x_p1,y_p1);
 		System.out.println(p1.getDetails());
 		
+		System.out.print("Enter x of p2: ");
+		double x_p2 = sc.nextDouble(); 
+		System.out.print("Enter y of p2: ");
+		double y_p2 = sc.nextDouble();
+
+		
+		Point2D p2 = new Point2D(x_p2,y_p2);
+		System.out.println(p2.getDetails());
 
 	}
 
