@@ -10,9 +10,6 @@ public class Point2D {
 		return "Co-ordinates of p1: ("+x+", "+y+")";
 	}
 	
-	public static void main(String[] args) {
-		Point2D p1 = new Point2D(2.7, 5.6);
-		System.out.println(p1.getDetails());
-	}
+	
 	
 }
